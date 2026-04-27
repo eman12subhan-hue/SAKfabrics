@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAKfabrics | Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>SAKfabrics</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="women.html">Women</a></li>
+      <li><a href="men.html">Men</a></li>
+      <li><a href="bridal.html">Bridal</a></li>
+      <li><a href="winter.html">Winter</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <div class="title">
+    <h2>Contact SAKfabrics</h2>
+    <p>Send your order details and business inquiries.</p>
+  </div>
+
+  <div class="contact-box">
+    <div class="contact-info">
+      <h3>Store Information</h3>
+      <p><b>📍 Address:</b> Rawalpindi, Pakistan</p>
+      <p><b>📞 Phone:</b> +92 300 0000000</p>
+      <p><b>📧 Email:</b> sakfabrics@gmail.com</p>
+      <p><b>🕒 Business Hours:</b> Mon - Sat (10AM - 8PM)</p>
+      <p><b>🚚 Delivery:</b> All Pakistan + International</p>
+    </div>
+
+    <form onsubmit="sendMessage(event)">
+      <h3 style="margin-bottom:15px;">Send Message</h3>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="formMsg" style="margin-top:10px; font-size:14px;"></p>
+    </form>
+  </div>
+</section>
+
+<a class="whatsapp" href="https://wa.me/923000000000" target="_blank">WhatsApp Order</a>
+
+<footer>
+  <p>© 2026 SAKfabrics | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
